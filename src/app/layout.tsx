@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Poppins } from 'next/font/google';
+import { Poppins, Prata } from 'next/font/google';
 
 import './globals.css';
 
@@ -8,6 +8,13 @@ import { QueryProvider } from '@/libs/QueryProvider';
 const poppins = Poppins({
   weight: ['300', '400', '500', '600', '700'],
   subsets: ['latin'],
+  variable: '--font-poppins',
+});
+
+const prata = Prata({
+  weight: ['400'],
+  subsets: ['latin'],
+  variable: '--font-prata',
 });
 
 export const metadata: Metadata = {
@@ -23,7 +30,9 @@ export default function RootLayout({
   return (
     <QueryProvider>
       <html lang="en">
-        <body className={poppins.className}>{children}</body>
+        <body className={`${poppins.variable} ${prata.variable}`}>
+          {children}
+        </body>
       </html>
     </QueryProvider>
   );
