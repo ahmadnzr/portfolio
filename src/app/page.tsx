@@ -73,7 +73,7 @@ const listEducation: (BlockArticleInterface & { id: React.Key })[] = [
 export default function Home() {
   return (
     <main className="w-svw min-h-svh text-neutral-2 md:flex flex-col items-center justify-center bg-gradient-to-br from-gray-800 via-gray-700 to-gray-900">
-      <div className="w-full h-full md:h-auto max-w-screen-lg bg-white shadow-black xl:rounded-md overflow-auto">
+      <div className="xl:my-10 w-full h-full md:h-auto max-w-screen-lg bg-white shadow-black xl:rounded-md overflow-auto">
         <ResumeHeader />
         <div className="p-4 md:p-6 grid grid-rows-2 grid-flow-col gap-4 md:gap-x-10 md:gap-y-3 items-start">
           <aside className="row-span-2">
