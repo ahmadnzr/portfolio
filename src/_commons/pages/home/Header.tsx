@@ -26,13 +26,13 @@ const links: LinkType[] = [
   {
     id: 3,
     label: 'Website',
-    textLink: 'ahmadnizar.web.app',
-    href: 'https://www.ahmadnizar.web.app',
+    textLink: 'portfolio-ahmadrpl.vercel.app/',
+    href: 'https://portfolio-ahmadrpl.vercel.app/',
   },
   {
     id: 4,
     label: 'Github',
-    textLink: 'github./com/ahmadnzr',
+    textLink: 'github.com/ahmadnzr',
     href: 'https://www.github.com/ahmadnzr',
   },
 ];
