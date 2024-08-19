@@ -15,7 +15,7 @@ const listExperience: (BlockArticleInterface & { id: React.Key })[] = [
   {
     id: 4,
     title: 'Web Engineer Intern',
-    subTitle: 'PT. Traveloka Indonesia, Feb 2022 – Juli 2022',
+    subTitle: 'Traveloka (PT Trinusa Travelindo), Feb 2022 – Juli 2022',
     description: `Part of the 'Kampus Merdeka' program by the Ministry of Education and Culture.Develop the interface of a product, change technology implementations, Refactor the application, work across teams, create reports, create documentation, create unit testing and integration testing, etc.`,
   },
   {
